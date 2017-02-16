@@ -1,0 +1,42 @@
+header {
+	position: fixed;
+	top: 0;
+}
+p {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	transform: translateX(70%);
+	background-color: maroon;
+	border: 3px solid black;
+	font-family: Georgia;
+	width: 500px;
+	align-items: center;
+}
+
+h1, h2, h3{
+	color: purple;
+	font-weight: bold;
+	font-family: Helvetica, 'sans serif';
+	background-color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	text-decoration: underline; 
+}
+
+ul, ol{
+	position: relative;
+	transform: translateX(35%);
+	font-size: 1.5rem;
+}
+
+li{
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
