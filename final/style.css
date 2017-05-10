@@ -1,0 +1,140 @@
+h1{
+	font-family: Didot, 'sans serif';
+	font-size: 35px;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	margin: auto;
+}
+
+h2{
+	font-family: Didot;
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+h3{
+	font-family: Didot;
+	text-align: center;
+	font-size: 25px;
+}
+
+h5{
+	font-family: Didot;
+	font-size: 25px;
+	font-style: italic;
+}
+
+h6{
+	font-family: Didot;
+
+}
+
+body{
+	background-color: beige;
+}
+
+p{
+	font-family: Didot;
+	text-align: center;
+	font-size: 17px;
+}
+
+nav{
+	font-family: Didot;
+	font-size: 15px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+
+}
+
+ol{
+	font-family: Didot;
+}
+
+fieldset{
+	border-width: 5px;
+}
+
+label{
+	font-family: Didot;
+	text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+	p{
+		font-size: 18px;
+	}
+	h2{
+		font-size: 24px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	img{
+		width: 1100px;
+	}
+}
+
+@media only screen and (min-width: 1020px) {
+	img{
+		width: 1200px;
+	}
+}
+
+.footer{
+	display: block;
+	padding: 1rem;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	right: 0;
+	left: 0;	
+	bottom: 0;
+	
+}
+
+.dropdownmenu{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.dropdownmenu:hover .content{
+	display: inline-block;
+}
+
+.menubttn {
+	font-family: Didot;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.content{
+	display: none;
+	background-color: black;
+	color: white;
+	font-family: Didot;
+	position: absolute;
+	min-width: 300px;
+	
+}
+
+.content a{
+	display: block;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 12px 16px;
+}
